@@ -12,11 +12,6 @@ import CoreData
 class WorkoutTableViewController: UITableViewController, NSFetchedResultsControllerDelegate {
     
     var fetchResultsController: NSFetchedResultsController<Entry>!
-//    lazy var exerciseView: Exercise = {
-//        let exercise = Exercise(exercise: "squat")
-//        exercise.translatesAutoresizingMaskIntoConstraints = false
-//        return exercise
-//    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()

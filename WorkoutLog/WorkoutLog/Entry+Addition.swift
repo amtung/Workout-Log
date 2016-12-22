@@ -20,7 +20,7 @@ extension Entry {
         return date.map { Entry.dateFormatter.string(from: $0 as Date) }
     }
     
-      // MARK: - Section Names
+    // MARK: - Section Names
     private static let sectionNameFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateFormat = "YYYY-MMMM-DD"
